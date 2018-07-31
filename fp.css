@@ -1,11 +1,21 @@
 h1 {
-  color: #474F7F
+  color: #474F7F;
   font-family: 'Cinzel', serif;
 }
 
 body {
   background:photo.html:
   font-family: 'Cinzel', serif;
+}
+
+p {
+  color: #474F7F;
+  font-family: 'Cinzel', serif;  
+}
+
+ul {
+  color: #A9AECC;
+  font-family: 'Lato', sans-serif; 
 }
 
 .container {
