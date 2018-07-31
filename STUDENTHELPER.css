@@ -1,8 +1,7 @@
-
 h1{
-    color : Grey;
+    color : #474F7F;
     font-size:60px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cinzel', serif;
     text-align: center;
   }
 
@@ -11,12 +10,12 @@ h1{
       margin: 0;
       padding: 0;
       overflow: hidden;
-      background-color: #333;
+      background-color: #A9ADCC;
       text-align: center;
   }
 
   li {
-      float: left;
+      float: center;
   }
 
   li a {
@@ -29,5 +28,12 @@ h1{
 
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-      background-color: #111;
+      background-color: #D3D9FF;
+  }
+
+  /* Style the tab */
+  .tab {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #696C7F;
   }
