@@ -1,7 +1,11 @@
-h1 {color:black}
+h1 {
+  color: #474F7F
+  font-family: 'Cinzel', serif;
+}
 
 body {
   background:photo.html:
+  font-family: 'Cinzel', serif;
 }
 
 .container {
