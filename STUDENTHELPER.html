@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel= "stylesheet" href="STUDENTHELPER.css">
+  <link rel= "stylesheet" href="something.css">
   <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,79 +11,38 @@
   <h1>Programs</h1>
 
   <div class="navbar">
-  <a href="index.html"></i>Home</a>
-  <div class="dropdown">
-    <button class="dropbtn" onclick="myFunction1()">Scholarships
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content" id="myDropdown1">
-      <a href="#">Pizza</a>
-      <a href="#">King</a>
-      <a href="#">Link 3</a>
-  </div>
-</div>
     <div class="dropdown">
-      <button class="dropbtn" onclick="myFunction2()">Programs
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content" id="myDropdown2">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
+      <button class="dropbtn"><a href="index.html">Home</a></button>
+      <div class="dropdown-content">
+      </div>
+    </div>
+  <div class="dropdown">
+  <button class="dropbtn">Scholarships</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
   </div>
 </div>
-  <a href="INTERNSHIPS.html">Internships</a>
+<div class="dropdown">
+  <button class="dropbtn">Programs</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Internships</button>
+  <div class="dropdown-content">
+  </div>
+</div>
   <div class="dropdown">
-    <button class="dropbtn" onclick="myFunction3()">Study Abroad
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content" id="myDropdown3">
+    <button class="dropbtn">Study Abroad</button>
+    <div class="dropdown-content">
       <a href="#">Link 1</a>
       <a href="#">Link 2</a>
       <a href="#">Link 3</a>
     </div>
   </div>
 </div>
-
-<script>
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function myFunction1() {
-    document.getElementById("myDropdown1").classList.toggle("show");
-}
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-    var myDropdown = document.getElementById("myDropdown1");
-      if (myDropdown.classList.contains('show')) {
-        myDropdown.classList.remove('show');
-      }
-  }
-}
-
-function myFunction2() {
-    document.getElementById("myDropdown2").classList.toggle("show");
-}
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-    var myDropdown = document.getElementById("myDropdown2");
-      if (myDropdown.classList.contains('show')) {
-        myDropdown.classList.remove('show');
-      }
-  }
-}
-
-function myFunction3() {
-    document.getElementById("myDropdown3").classList.toggle("show");
-}
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-    var myDropdown = document.getElementById("myDropdown3");
-      if (myDropdown.classList.contains('show')) {
-        myDropdown.classList.remove('show');
-      }
-  }
-}
-</script>
