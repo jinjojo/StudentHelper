@@ -47,52 +47,64 @@ h1{
       text-decoration: none;
   }
 
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-      background-color: #111;
-  }
+.container {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    color: white;
+}
 
-  /* Dropdown Button */
-  .dropbtn {
-      background-color: #3498DB;
-      color: white;
-      padding: 16px;
-      font-size: 16px;
-      border: none;
-      cursor: pointer;
-  }
+.dropbtn {
+    font-family: 'Lato', sans-serif;
+    background-color: #A9ADCC;
+    color: white;
+    padding: 17px 85px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
 
-  /* Dropdown button on hover & focus */
-  .dropbtn:hover, .dropbtn:focus {
-      background-color: #2980B9;
-  }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
 
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-      position: relative;
-      display: inline-block;
-  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #C6C8F5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
 
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #f1f1f1;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
-  }
+.dropdown-content a {
+    color: black;
+    padding: 17px 86px;
+    text-decoration: none;
+    display: block;
+}
 
-  /* Links inside the dropdown */
-  .dropdown-content a {
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-  }
+.dropdown-content a:hover {background-color: #D3E0FF}
 
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
-  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-  .show {display:block;}
+.dropdown:hover .dropbtn {
+    background-color: #D3D9FF;
+}
+a:link {
+  text-decoration: none;
+  color : white;
+  font-size: 16px;
+  font-family: 'Lato', serif;
+  text-align: center;
+}
+a:visited {
+  text-decoration: none;
+  color : white;
+  font-size: 16px;
+  font-family: 'Lato', serif;
+  text-align: center;
+}
