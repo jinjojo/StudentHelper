@@ -5,14 +5,20 @@ h1{
     text-align: center;
   }
 h2{
+    color : #474F7F;
+    font-size:45px;
+    font-family: 'Cinzel', serif;
+    text-align: left;
+  }
+h4{
   color : #474F7F;
-  font-size:30px;
+  font-size:32px;
   font-family: 'Cinzel', serif;
   text-align: center;
 }
 p{
   color : #161729;
-  font-size:15px;
+  font-size:18px;
   font-family: 'Lato', serif;
   text-align: center;
 }
