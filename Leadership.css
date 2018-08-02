@@ -22,80 +22,6 @@ p{
   font-family: 'Lato', serif;
   text-align: center;;
 }
-  ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #A9ADCC;
-      text-align: center;
-  }
-
-  li {
-      float: left;
-  }
-
-  li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-family: 'Lato', sans-serif;
-  }
-
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-      background-color: #D3D9FF;
-  }
-
-  /* Style the tab */
-  .tab {
-      overflow: hidden;
-      border: 1px solid #ccc;
-      background-color: #696C7F;
-  }
-h1{
-    color : #474F7F;
-    font-size:60px;
-    font-family: 'Cinzel', serif;
-    text-align: center;
-  }
-
-h2 {
-    color : #45477F;
-    font-size:45px;
-    font-family: 'Cinzel', serif;
-    text-align: center;
- }
-
-  ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #A9ADCC;
-      text-align: center;
-  }
-
-  li {
-      float: left;
-  }
-
-  li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-family: 'Lato', sans-serif;
-  }
-
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-      background-color: #A9ADCC;
-  }
-
 .container {
     overflow: hidden;
     position: relative;
@@ -107,7 +33,7 @@ h2 {
     font-family: 'Lato', sans-serif;
     background-color: #A9ADCC;
     color: white;
-    padding: 17px 86px;
+    padding: 17px 85px;
     font-size: 16px;
     border: none;
     cursor: pointer;
