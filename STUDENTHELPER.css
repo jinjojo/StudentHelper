@@ -11,6 +11,18 @@ h2 {
     font-family: 'Cinzel', serif;
     text-align: center;
  }
+h4{
+  color : #474F7F;
+  font-size:32px;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+}
+p{
+  color : #161729;
+  font-size:18px;
+  font-family: 'Lato', serif;
+  text-align: center;
+}
 
   ul {
       list-style-type: none;
