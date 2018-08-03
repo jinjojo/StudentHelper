@@ -5,6 +5,19 @@ h1{
     text-align: center;
   }
 
+h2{
+    color : #474F7F;
+    font-size:45px;
+    font-family: 'Cinzel', serif;
+    text-align: left;
+  }
+h4{
+  color : #474F7F;
+  font-size:32px;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+}
+
   ul {
       list-style-type: none;
       margin: 0;
